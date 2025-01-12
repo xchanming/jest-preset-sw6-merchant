@@ -1,0 +1,34 @@
+{
+  "name": "@cicada-ag/jest-preset-sw6-merchant",
+  "version": "4.3.4",
+  "description": "Jest Test preset for Cicada 6 merchant administration unit tests",
+  "main": "jest-preset.js",
+  "keywords": [
+    "jest",
+    "unit",
+    "test",
+    "unit-test",
+    "merchant",
+    "sw6"
+  ],
+  "author": "klarstil",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xchanming/jest-preset-sw6-merchant.git"
+  },
+  "engines": {
+    "node": ">=16.0.0",
+    "npm": ">=8.0.0"
+  },
+  "dependencies": {
+    "@babel/core": "^7.17.12",
+    "@babel/preset-typescript": "^7.16.7",
+    "babel-jest": "^27.5.1",
+    "babel-plugin-require-context-hook": "^1.0.0",
+    "uuid": "^8.3.2"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
